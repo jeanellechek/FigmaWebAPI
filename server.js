@@ -4,7 +4,6 @@ var fetch = require('isomorphic-fetch')
 require('dotenv').config();
 
 const FigmaAPIKey = "15397-215cd3d1-8cb8-4e59-a90e-43f2da257516"
-//const FigmaFileID = "UKRkeh3a3SVyxz87lyRk99" //FarmX
 const FigmaFileID = "Bg93Xzx3l8K78DsRjRCvZZjk" //testing
 
 async function figmaFileFetch(fileId) {
